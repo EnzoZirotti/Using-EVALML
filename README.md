@@ -23,3 +23,8 @@ Making sure you have everything for woodwork.
 
 ### Using WoodWork
 Woodwork is a library that extends Pandas functionality by adding new data types and enabling efficient operations on them. This will help with data typing of 2 dimentional tabular data structures.
+Initializing woodwork on a dataframe an optional name parameter can be specified to label the data.
+Woodwork uses a weak reference for maintaining a reference from the accessor to the dataframe.
+Instead of calling it pd.read_ect.ww.init() always pull in the data into a variable and then  init().
+Once woodwork is initialized on a dataframe it is recommended to go through the ww namespace
+when performing dataframe operations to avoid invalidating woodwork's typing info.
