@@ -28,3 +28,12 @@ Woodwork uses a weak reference for maintaining a reference from the accessor to 
 Instead of calling it pd.read_ect.ww.init() always pull in the data into a variable and then  init().
 Once woodwork is initialized on a dataframe it is recommended to go through the ww namespace
 when performing dataframe operations to avoid invalidating woodwork's typing info.
+
+
+### Using Evalml from start.
+Evalml allows the use of demo data that is accessable through evalml.demos.
+For example, if we wanted to load the wine dataset we could do so like this:
+data = evalml.demos.load_wine()
+I then have commented in the evalml_usage.ipynb the way to use this.
+I will also follow the tutorials and examples for what evalml can do. 
+At the end I will take data that is pulled from Kaggle to try using evalml on a dataset not provided.
