@@ -35,5 +35,3 @@ Evalml allows the use of demo data that is accessable through evalml.demos.
 For example, if we wanted to load the wine dataset we could do so like this:
 data = evalml.demos.load_wine()
 I then have commented in the evalml_usage.ipynb the way to use this.
-I will also follow the tutorials and examples for what evalml can do. 
-At the end I will take data that is pulled from Kaggle to try using evalml on a dataset not provided.
