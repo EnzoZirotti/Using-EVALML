@@ -35,3 +35,7 @@ Evalml allows the use of demo data that is accessable through evalml.demos.
 For example, if we wanted to load the wine dataset we could do so like this:
 data = evalml.demos.load_wine()
 I then have commented in the evalml_usage.ipynb the way to use this.
+
+
+### Evalml Diabetes Dataset
+This dataset is being pulled in through the evalml demo datasets so this way I do not break any hipa compliance.
